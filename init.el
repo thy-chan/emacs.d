@@ -51,6 +51,9 @@
   ("C-h k" . 'helpful-key)
   ("C-h x" . 'helpful-command))
 
+(use-package async
+  :ensure t)
+
 (use-package hydra
   :ensure t)
 
@@ -628,6 +631,7 @@ Up^^             Down^^           Miscellaneous           % 2(mc/num-cursors) cu
 
 (when *is-a-mac*
   (use-package chatgpt-shell
+	:ensure t
 	:custom
 	((chatgpt-shell-openai-key
       (lambda ()

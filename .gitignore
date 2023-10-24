@@ -6,7 +6,7 @@
 /bookmarks
 /.bookmarks.el
 .cache/
-/elpa
+#/elpa
 /elpa-*
 /eshell
 /tramp
@@ -27,3 +27,5 @@ amx-items
 transient/
 projects
 games/
+/eln-cache
+org-roam.db
